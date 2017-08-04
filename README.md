@@ -14,6 +14,11 @@ Studies have been conducted for testing the effectiveness of optical flow for ob
 A new method is proposed and tested which utilizes a curl-based analysis of optical flow to detect obstacles. The curl of each velocity field (two-components) are computed. The 2D field is filtered by value and each remaining object is dilated using a basic morphological technique. The objects then undergo a particle analysis (ultimately used for the ROI highlighting process).
 
 ## LabVIEW Code ##
+![1](https://user-images.githubusercontent.com/23239868/28973012-f33a6ace-78ff-11e7-930b-b14deb7ae21c.JPG)
+![2](https://user-images.githubusercontent.com/23239868/28973013-f33eaaee-78ff-11e7-8c72-ef6c40e116e4.JPG)
+
+
+
 
 
 ## Appendix ##
