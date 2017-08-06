@@ -15,14 +15,19 @@ A new method is proposed and tested which utilizes a curl-based analysis of opti
 
 ## LabVIEW Code ##
 
-This curl-analysis is realized using LabVIEW's IMAQ library. 
+This curl-analysis is realized using LabVIEW's IMAQ library. This VI allows the user to enter a folder containing frame-by-frame images of a video. The VI then analyzes and computes the Optical Flow for each frame (and the previous one). The user can then view the results in the main image indicator, while viewing an intensity graph of the velocity curl-field on a separate indicator. To use this VI follow these steps:
 
+(1) enter the folder containing images of the video in the **Video Sequence Folder Path**
 
-![1](https://user-images.githubusercontent.com/23239868/28973012-f33a6ace-78ff-11e7-930b-b14deb7ae21c.JPG)
+(2) press the **run** button and watch the video/analysis execute
+
+(3) if the user wants to stop at anytime during the analysis then press the **STOP** button
+
 ![2](https://user-images.githubusercontent.com/23239868/28973013-f33eaaee-78ff-11e7-8c72-ef6c40e116e4.JPG)
 
 
-
+## Results ##
+![1](https://user-images.githubusercontent.com/23239868/28973012-f33a6ace-78ff-11e7-930b-b14deb7ae21c.JPG)
 
 
 ## Appendix ##
