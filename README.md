@@ -27,6 +27,9 @@ This curl-analysis is realized using LabVIEW's IMAQ library. This VI allows the 
 
 
 ## Results ##
+
+Extensive testing revealing that algorithm is a suitable (albeit slightly computationally time consuming) way of detecting obstacles in snowy conditions. The figure below shows the obstacles being detected in the blue region-of-interest (ROI) boxes, while the LK velocity vectors are the red arrows.
+
 ![1](https://user-images.githubusercontent.com/23239868/28973012-f33a6ace-78ff-11e7-930b-b14deb7ae21c.JPG)
 
 
